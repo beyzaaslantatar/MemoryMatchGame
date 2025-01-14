@@ -1,0 +1,104 @@
+
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <title>KART EŞLEŞTİRME OYUNU</title>
+    <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Kart Eşleştirme Oyunu</h1>
+        </header>
+
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li id="one"><i class="fa fa-star"></i></li>
+        		<li id="two"><i class="fa fa-star"></i></li>
+        		<li id="three"><i class="fa fa-star"></i></li>
+        	</ul>     
+          <p><span id="moves">0</span> Hareket</p>
+          <div id="timer">00:00</div>   
+            <button id="restartClick">
+        		<i class="fa fa-repeat"></i>
+        	</button> 
+        </section>
+        <ul class="deck">
+            <li class="card" tabindex="0">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" tabindex="0">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card" tabindex="0">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" tabindex="0">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+    </div>
+  
+<!--  <div id="leader-board" class="leaderboard-modal">
+   <div class="result-board">
+      <h1 class='board-heading'>Leader-Board</h1>
+    <p id="result"></p>
+   </div>
+</div> -->
+  
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+
+    <h1 id="modal-heading">Tebrikler Kazandınız</h1>
+
+    <button id="play-again" tabindex ="-1" class="play-again-button">Tekrar Oyna</button>
+  
+  </div>
+</div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
